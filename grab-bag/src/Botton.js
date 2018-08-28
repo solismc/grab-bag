@@ -4,16 +4,14 @@ import PropTypes from 'prop-types';
 
 
 
+class Button extends Component {
 
 constructor(props) {
     super(props);
     this.setState() 
         teamName = []
     }
-}:
 
-
-class Button extends Component {
     render() {
         console.log('This is the name of the team you entered', teamName)
         return (
