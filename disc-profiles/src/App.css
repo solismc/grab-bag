@@ -4,13 +4,23 @@
 
 .App-logo {
   
+  
 }
 
 .App-header {
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
   background-color: #888A8D;
-  height: 50px;
   padding: 20px;
   color: white;
+}
+
+.Nav-Menu {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  style-type: none;
 }
 
 .App-title {

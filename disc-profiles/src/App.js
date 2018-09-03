@@ -14,7 +14,8 @@ class App extends Component {
         <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <p className="App-intro">
+          </header>
+            <section className="Nav-Menu">
               <ul>
                 <li>
                   <Link to="/" />
@@ -27,8 +28,7 @@ class App extends Component {
                   <Link to="/leadership">Leadership</Link>
                 </li>
               </ul>
-            </p>
-          </header>
+            </section>
           <Switch>
             <Route path="/" exact component={homePage} />
             <Route path="/peopleanalytics" exact component={peopleAnalytics} />
