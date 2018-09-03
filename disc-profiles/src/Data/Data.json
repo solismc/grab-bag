@@ -24,12 +24,6 @@
 
 "Leadership":{
     "id": "1",
-    "title": "Leadership, Personality & Communication",
-    "description": "Adapting yourself to the needs of your goals might become a challenge. 
-    How can you make sure you approach individuals based on their preferences?",
-    "long-description":,
-    "image": "./images/Word-Cloud-Leadership.jpg",
-    "id": "2",
     "title": "Crosscultural Competence",
     "description": "Classroom trainings and personal advice are valuable. 
     However, what if there is a lack of time to organize a consulting session or
@@ -39,10 +33,18 @@
     questions or help you find solutions anytime and anywhere?",
     "long-description":,
     "image": "./images/Cross-Competence.png",
+    "id": "2",
+    "title": "Success Mindsets: 6 Ways to deliver brilliant results",
+    "description": "Adapting yourself to the needs of your goals might become a challenge. 
+    How can you make sure you approach individuals based on their preferences?",
+    "long-description":,
+    "image": "./images/Brilliant-or-Blunder.jpg",
     "id": "3",
     "title": "Business Communication",
     "description": "The e-northamerica communication analysis CA® is a model in order 
     to register verbally observable behaviors. The model is based on the Harvard IPA 
     communication model (Prof. Bales) and may be employed for bilateral as well as 
-    multilateral talks."
+    multilateral talks.",
+    "long-description": "./images/CA-4.png",
+
 }
