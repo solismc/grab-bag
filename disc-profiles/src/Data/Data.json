@@ -1,50 +1,48 @@
-"Personality":{
-    "id": "1",
-    "title": "e-Interpersonla Profile",
-    "description": "The e-stimate® preference profile is very easy to understand,
-     both graphically and textually. Nevertheless, the depth and the precision 
-     will impress you.",
-    "long-description": "",
-    "image": "./images/profile.png",
-    "id": "2",
-    "title": "e-Team Profile",
-    "description": "The e-team profile uncovers the strengths of the team, 
-    detailing personal behavioral for individual members as well as for the 
-    overall team.",
-    "long-description": "",
-    "image": "./images/Team.png",
-    "id": "3",
-    "title": "e-jobprofile",
-    "description": "Are you looking to find the matching individual for the matching job? 
-    Do you need to analyze candidates based on their personality? 
-    Are you seeking talent within the organization?",
-    "long-description": "",
-    "image": "./images/e-gruppe.png",
-}
+{
+    "Personality": {
+        "data": [{
+            "id": "1",
+            "title": "e-Interpersonla Profile",
+            "description": "The e-stimate® preference profile is very easy to understand, both graphically and textually.Nevertheless,the depth and the precision will impress you.",
+            "long-description": "",
+            "image": "./images/profile.png"
+        }, {
+            "id": "2",
+            "title": "e-Team Profile",
+            "description": "The e-team profile uncovers the strengths of the team, detailing personal behavioral for individual members as well as for the overall team.",
+            "long-description": "",
+            "image": "./images/Team.png"
+        }, {
+            "id": "3",
+            "title": "e-jobprofile",
+            "description": "Are you looking to find the matching individual for the matching job? Do you need to analyze candidates based on their personality ? Are you seeking talent within the organization ? ",
+            "long-description" : "",
+            "image" : "./images/e-gruppe.png"
+        }]
 
-"Leadership":{
-    "id": "1",
-    "title": "Crosscultural Competence",
-    "description": "Classroom trainings and personal advice are valuable. 
-    However, what if there is a lack of time to organize a consulting session or
-    if something remains unclear after the training?
-    After all, most questions do arise in practice. Wouldn’t it be great if you 
-    had an assistant who would take these uncertainties away, answer your 
-    questions or help you find solutions anytime and anywhere?",
-    "long-description":,
-    "image": "./images/Cross-Competence.png",
-    "id": "2",
-    "title": "Success Mindsets: 6 Ways to deliver brilliant results",
-    "description": "Adapting yourself to the needs of your goals might become a challenge. 
-    How can you make sure you approach individuals based on their preferences?",
-    "long-description":,
-    "image": "./images/Brilliant-or-Blunder.jpg",
-    "id": "3",
-    "title": "Business Communication",
-    "description": "The e-northamerica communication analysis CA® is a model in order 
-    to register verbally observable behaviors. The model is based on the Harvard IPA 
-    communication model (Prof. Bales) and may be employed for bilateral as well as 
-    multilateral talks.",
-    "long-description": "./images/CA-4.png",
 
+        
+    },
+
+    "Leadership": {
+        "data": [{
+        "id": "1",
+        "title": "Crosscultural Competence",
+        "description": "Classroom trainings and personal advice are valuable. However, what if there is a lack of time to organize a consulting session or if something remains unclear after the training ? After all, most questions do arise in practice. Wouldn’t it be great if you had an assistant who would take these uncertainties away, answer your questions or help you find solutions anytime and anywhere ? ",
+        "long-description" : "",
+        "image" : "./images/Cross-Competence.png"
+        }, {
+        "id": "2",
+        "title": "Success Mindsets: 6 Ways to deliver brilliant results",
+        "description": "Adapting yourself to the needs of your goals might become a challenge. How can you make sure you approach individuals based on their preferences ? ",
+        "long-description" : "",
+        "image": "./images/Brilliant-or-Blunder.jpg"
+        }, {
+        "id": "3",
+        "title": "Business Communication",
+        "description": "The e-northamerica communication analysis CA® is a model in order to register verbally observable behaviors.The model is based on the Harvard IPA communication model(Prof.Bales) and may be employed for bilateral as well as multilateral talks.",
+        "long-description": "./images/CA-4.png",
+        "image": "./images/CA-4.png"
+        }]
+    }
 }
