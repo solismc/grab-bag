@@ -11,12 +11,12 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div>
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
           </header>
-            <section className="Nav-Menu">
-              <ul>
+            <nav>
+              <ul className="Nav-Menu">
                 <li>
                   <Link to="/" />
                   Home Page
@@ -28,7 +28,7 @@ class App extends Component {
                   <Link to="/leadership">Leadership</Link>
                 </li>
               </ul>
-            </section>
+            </nav>
           <Switch>
             <Route path="/" exact component={homePage} />
             <Route path="/peopleanalytics" exact component={peopleAnalytics} />

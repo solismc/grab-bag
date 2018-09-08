@@ -2,10 +2,10 @@
     "Personality": {
         "data": [{
             "id": "1",
-            "title": "e-Interpersonla Profile",
+            "title": "e-Interpersonal Profile",
             "description": "The e-stimate® preference profile is very easy to understand, both graphically and textually.Nevertheless,the depth and the precision will impress you.",
             "long-description": "",
-            "image": "./images/profile.png"
+            "image": "./images/Profile.png"
         }, {
             "id": "2",
             "title": "e-Team Profile",
