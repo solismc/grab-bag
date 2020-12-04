@@ -12,25 +12,24 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-          </header>
-            <nav>
+          <header >
+          <nav>
               <ul className="Nav-Menu">
-                <li>
-                  <Link to="/" />
+                <li className="Nav-li">
+                  <Link to="/home" />
                   Home Page
                 </li>
-                <li>
+                <li className="Nav-li">
                   <Link to="/peopleanalytics">People Analytics</Link>
                 </li>
-                <li>
+                <li className="Nav-li">
                   <Link to="/leadership">Leadership</Link>
                 </li>
               </ul>
             </nav>
+          </header>
           <Switch>
-            <Route path="/" exact component={homePage} />
+            <Route path="/home" exact component={homePage} />
             <Route path="/peopleanalytics" exact component={peopleAnalytics} />
             <Route path="/leadership" exact component={leadershipPrograms} />
           </Switch>

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #b1d4e0;
 }
 
 .App-logo {
@@ -10,29 +11,34 @@
 
 .App-header {
   display: flex;
-  justify-content: center;
-  align-content: stretch;
-  background-color: #888A8D;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  background-color: #145DA0;
   font-family: 'Open Sans Extra Bold', sans-serif;
-  padding: 20px;
   color: white;
-  padding-left: 1em;
-  padding-right: 1em;
 }
 
 .Nav-Menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: center;
   align-items: center;
   list-style: none;
-  background-color: none;
+  background-color: #145DA0;
   margin: 0;
   padding: 0;
   color: #605F5E;
   font-family: 'Open Sans Extra Bold', sans-serif;
   font-weight: bold;
-  height: 3em;
+  font-size: 20px;
+  height: 15vh;
+  text-decoration: none;
+}
+
+.Nav-li {
+  font-size: 2em;
+  text-decoration: none;
 }
 
 .App-title {
