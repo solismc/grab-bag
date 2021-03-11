@@ -17,7 +17,6 @@ class App extends Component {
               <ul className="Nav-Menu">
                 <li className="Nav-li">
                   <Link to="/home">Home</Link>
-                  Home Page
                 </li>
                 <li className="Nav-li">
                   <Link to="/peopleanalytics">People Analytics</Link>
