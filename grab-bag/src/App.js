@@ -10,7 +10,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Team Name Raffle</h1>
         </header>
-        <label for="example">Enter your team name</label>
+        <label htmlFor="example">Enter your team name</label>
         <input id="example" type="text" name="text"></input>
         <button>Submit</button>
         <p className="App-intro"></p>
